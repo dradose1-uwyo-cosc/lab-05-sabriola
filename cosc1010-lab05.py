@@ -3,7 +3,7 @@
 #October 13, 2024
 #Lab 05
 #Lab Section: 16
-#Sources: Lecture 8 and 9
+#Sources: Lecture 7
 
 
 max_temps = [
@@ -135,7 +135,9 @@ neg_sum = 0
 
 for sum in numbers:
     if sum > 0:
-        pos_sum
+        pos_sum += sum
+    elif sum < 0:
+        neg_sum += sum
 
 print(f"Sum of positive numbers {pos_sum}")
 print(f"Sum of negative numbers {neg_sum}")
