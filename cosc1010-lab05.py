@@ -136,7 +136,7 @@ neg_sum = 0
 for sum in numbers:
     if sum > 0:
         pos_sum += sum
-    elif sum < 0:
+    if sum < 0:
         neg_sum += sum
 
 print(f"Sum of positive numbers {pos_sum}")
