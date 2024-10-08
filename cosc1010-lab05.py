@@ -118,9 +118,9 @@ zero_count = 0
 for n in numbers:
     if n > 0:
         pos_count += 1
-    elif n < 0:
+    if n < 0:
         neg_count += 1
-    else:
+    if n == 0:
         zero_count += 1
 
 print(f'There are {pos_count} positive numbers')
